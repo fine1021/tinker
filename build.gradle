@@ -5,6 +5,7 @@ buildscript {
         mavenCentral()
         google()
         jcenter()
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.0'
@@ -19,6 +20,7 @@ allprojects {
         mavenCentral()
         google()
         jcenter()
+        maven { url 'https://maven.aliyun.com/repository/public' }
     }
 
     tasks.withType(Javadoc).all {
